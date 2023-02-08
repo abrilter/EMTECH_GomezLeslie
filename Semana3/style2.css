@@ -9,7 +9,7 @@
 
 .logo{
     width: 10rem;
-    border-radius: 100%;
+    border-radius: 20%;
 }
 
 li{ 
@@ -24,8 +24,12 @@ h1{
 }
 
 .tituloInicio{
+    overflow:none;
+    height: 90px;
+    width: 50%;
+    min-width: 400px;
     text-align:center;
-    font-size:30px;
+    font-size:50px;
     font-weight:bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,17 +46,21 @@ h1{
     text-align: center;
 }
 
-/*.imagen_pos{
-    position: absolute;
-    top:450px; left:30px;
+.imagen_pos{
+    display: none;
+   /* position: absolute;
+    top:450px; left:30px;*/
 }
-*/
+
 
 /*p{
     display: inline;
 }
 */
-
 .nav_item{
-    display: inline;
+    display:inline;
+}
+.nav_item:hover a{
+    color: #ebc6c6;
+    background-color: blue;
 }
