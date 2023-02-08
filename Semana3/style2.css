@@ -41,3 +41,18 @@ h1{
     background-color:pink;
     text-align: center;
 }
+
+/*.imagen_pos{
+    position: absolute;
+    top:450px; left:30px;
+}
+*/
+
+/*p{
+    display: inline;
+}
+*/
+
+.nav_item{
+    display: inline;
+}
