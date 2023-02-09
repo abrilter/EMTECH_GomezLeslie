@@ -57,10 +57,42 @@ h1{
     display: inline;
 }
 */
-.nav_item{
-    display:inline;
+.barra-nav{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    background-color: antiquewhite;
+    border-color: saddlebrown;
+    border-style: dashed;
+    list-style: none;
 }
-.nav_item:hover a{
+
+.nav_item{
+    /*flex:1;*/
+    /*flex-grow:1;*/
+    /*flex-shrink: 0;
+    flex-basis:0;*/
+
+
+    background-color: brown;
+    list-style: none;
+    border-color: pink;
+    /*border-style: solid;*/
+    list-style: none;
+}
+
+.nav_item a{
     color: #ebc6c6;
-    background-color: blue;
+   /* background-color: blue;*/
+}
+
+
+
+.navegacion{
+    /*height: 26px;
+    background-color: white;
+    border: 3px;
+    border-style: dotted;
+    */
 }
