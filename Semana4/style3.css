@@ -24,6 +24,7 @@ h1{
 }
 
 .tituloInicio{
+    display: flex;
     overflow:none;
     height: 90px;
     width: 50%;
@@ -59,8 +60,8 @@ h1{
 */
 .barra-nav{
     display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+    justify-content: center;
+    
 
     background-color: antiquewhite;
     border-color: saddlebrown;
@@ -90,14 +91,23 @@ h1{
 
 
 .navegacion{
-    /*height: 26px;
-    background-color: white;
-    border: 3px;
-    border-style: dotted;
-    */
+        /*height: 26px;
+        background-color: white;
+        border: 3px;
+        border-style: dotted;
+        */
 }
 
-@media only screen and (min-width: 600px)
-and(min-width:400px){
+@media only screen and (min-width:320px)
+and(max-width:500px){
+    body{
+        background-color: aqua;
+    }
+}
 
+@media only screen and (min-width:500px)
+and(max-width:1000px){
+    body{
+        background-color: coral;
+    }
 }
