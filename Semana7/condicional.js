@@ -6,6 +6,11 @@ if (edad >= 18) {
     console.log("No válido");
 }
 
+const array = ['Panqueso','Panquesito','Pan','Horneado','Ponche']
+for (var i = 0; i < 4; i++) {
+    console.log(array[i]);
+  }
+  
 switch (edad) {
     case '15':
       console.log('Recibes un descuento por el día del niño');
