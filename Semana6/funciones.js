@@ -17,6 +17,12 @@ function comp(a,b){
 		}
 }
 
+const array1 = [1,2];
+const array = ['Panque', 21,5, array1]
+const [nombre,edad] = array1;
+console.log(nombre,edad);
+
+
 const usuario1 = {
     nombre : 'Juanl',
     apellido : 'Perez',
