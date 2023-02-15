@@ -15,8 +15,13 @@ let nprecios = zapatos.filter(elemento =>elemento.precio> 200)
 console.log(nprecios);
 
 //Imprime en consola el precio promedio de los productos
+const todosprecios = zapatos.map(elemento => elemento.precio)
+forEach (todosprecios, function(numero){
+    suma += numero;
+});
 
-
+const promedio = suma/4;
+console.log(promedio);
 
 //Imprime en consola alfabéticamente el nombre de los productos.
 
