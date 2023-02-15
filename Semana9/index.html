@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id='seccion1'> Hola MUNDO </h1>
+    <script>
+        let elemento_padre = document.getElementById('seccion1');
+        elemento_padre.innerHTML = '<h1> Hola MEXICO </h1>';
+    </script>
+
+    <script>
+        let ul = document.createElement("ul");
+        let li1 = document.createElement("li");
+        let li1Texto = document.createTextNode("Producto-A");
+        li1.appendChild(li1Texto);
+        let li2 = document.createElement("li");
+        let li2Texto = document.createTextNode("Producto-B");
+        li2.appendChild(li2Texto);
+        let li3 = document.createElement("li");
+        let li3Texto = document.createTextNode("Producto-C");
+        li3.appendChild(li3Texto);
+        ul.appendChild(li1);
+        ul.appendChild(li2);
+        ul.appendChild(li3);
+        document.body.appendChild(ul);
+</script>
+
+</body>
+</html>
